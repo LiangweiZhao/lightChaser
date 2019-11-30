@@ -14,7 +14,7 @@ class TeamMember extends Component {
         return (
             <div {...props}>
                 <div className="cardFront">
-                    <img src={`./${photo}`}/>
+                    <img src={`/${photo}`}/>
                 </div>
                 <div className="cardBack">
                     <h1>{name}</h1>
@@ -91,7 +91,7 @@ class Main extends React.Component{
                 <Menu mode="horizontal" className="Main-header">
                     <Menu.Item>
                         <a className="logo" href="/">
-                            <img src="../../USC-Games_CardOnWhite_Horiz.png"/>
+                            <img src="/USC-Games_CardOnWhite_Horiz.png"/>
                         </a>
                     </Menu.Item>
                     <Menu.Item>
@@ -113,13 +113,13 @@ class Main extends React.Component{
                 <div id="levels">
                     <Slider {...settings_main}>
                         <div className="overall_item level1">
-                            <img src={`../level1_bg.png`}/>
+                            <img src={`/level1_bg.png`}/>
                         </div>
                         <div className="overall_item level2">
-                            <img src={`../level2_bg.png`}/>
+                            <img src={`/level2_bg.png`}/>
                         </div>
                         <div className="overall_item level3">
-                            <img src={`../level3_bg.png`}/>
+                            <img src={`/level3_bg.png`}/>
                         </div>
                     </Slider>
                 </div>
@@ -133,22 +133,22 @@ class Main extends React.Component{
                     <div className="scene_bg"></div>
                     <Slider {...settings_scene} className="scene_items">
                         <div className="scene_item">
-                            <img src={`../instru_1.png`}/>
+                            <img src={`/instru_1.png`}/>
                         </div>
                         <div className="scene_item">
-                            <img src={`../instru_1.png`}/>
+                            <img src={`/instru_1.png`}/>
                         </div>
                         <div className="scene_item">
-                            <img src={`../instru_1.png`}/>
+                            <img src={`/instru_1.png`}/>
                         </div>
                         <div className="scene_item">
-                            <img src={`../instru_2.png`}/>
+                            <img src={`/instru_2.png`}/>
                         </div>
                         <div className="scene_item">
-                            <img src={`../instru_2.png`}/>
+                            <img src={`/instru_2.png`}/>
                         </div>
                         <div className="scene_item">
-                            <img src={`../instru_2.png`}/>
+                            <img src={`/instru_2.png`}/>
                         </div>
                     </Slider>
                 </div>
@@ -173,7 +173,7 @@ class Main extends React.Component{
                             </video>
                         </div>):
                         this.state.vppVal === "poster" ?
-                            (<img id="poster" src="../../poster.jpeg"/>):
+                            (<img id="poster" src="/poster.jpeg"/>):
                             (<div className= "screenshot"><Slider {...settings_team}>
                                 <h1>1</h1>
                                 <h1>2</h1>
