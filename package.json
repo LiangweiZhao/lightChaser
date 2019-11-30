@@ -2,6 +2,7 @@
   "name": "light-chaser",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://liangweizhao.github.io/lightchaser",
   "dependencies": {
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
@@ -27,5 +28,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "antd": "^3.25.0",
+    "element-react": "^1.4.34",
+    "element-theme-default": "^1.4.13",
+    "jquery": "^3.4.1",
+    "react-hot-loader": "^4.5.3",
+    "react-router-dom": "^5.1.2",
+    "react-slick": "^0.25.2",
+    "slick-carousel": "^1.8.1",
+    "video-react": "^0.14.1"
   }
 }
