@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb2d0c4c2130d1f5676e0835a6220231",
+    "revision": "98bcaf06201668e16130e0defc0ba629",
     "url": "/light_chaser/index.html"
   },
   {
