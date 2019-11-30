@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6f9fbdc3b9fb8c2be68d1e2461a459ac",
+    "revision": "da136b11afa116c77db8a9148750ba4f",
     "url": "/light_chaser/index.html"
   },
   {
-    "revision": "823bc6eca9b28b44b0d7",
+    "revision": "9896cf157ea9358f1faf",
     "url": "/light_chaser/static/css/2.2f67b891.chunk.css"
   },
   {
-    "revision": "3cde22aa4db7f7370e83",
+    "revision": "fa9a99b54a5a50cf24dd",
     "url": "/light_chaser/static/css/main.622061d4.chunk.css"
   },
   {
-    "revision": "823bc6eca9b28b44b0d7",
-    "url": "/light_chaser/static/js/2.88c8e90f.chunk.js"
+    "revision": "9896cf157ea9358f1faf",
+    "url": "/light_chaser/static/js/2.6b4da4b5.chunk.js"
   },
   {
-    "revision": "3cde22aa4db7f7370e83",
-    "url": "/light_chaser/static/js/main.1459e0be.chunk.js"
+    "revision": "fa9a99b54a5a50cf24dd",
+    "url": "/light_chaser/static/js/main.28dab096.chunk.js"
   },
   {
     "revision": "5a806a5dc0e5443a5c2b",
