@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/light_chaser/static/css/main.622061d4.chunk.css",
+    "main.js": "/light_chaser/static/js/main.043e4b1d.chunk.js",
+    "main.js.map": "/light_chaser/static/js/main.043e4b1d.chunk.js.map",
+    "runtime-main.js": "/light_chaser/static/js/runtime-main.e5c0582b.js",
+    "runtime-main.js.map": "/light_chaser/static/js/runtime-main.e5c0582b.js.map",
+    "static/css/2.2f67b891.chunk.css": "/light_chaser/static/css/2.2f67b891.chunk.css",
+    "static/js/2.88c8e90f.chunk.js": "/light_chaser/static/js/2.88c8e90f.chunk.js",
+    "static/js/2.88c8e90f.chunk.js.map": "/light_chaser/static/js/2.88c8e90f.chunk.js.map",
+    "index.html": "/light_chaser/index.html",
+    "precache-manifest.df272a633e8958e7e2abd5e6d14b12ed.js": "/light_chaser/precache-manifest.df272a633e8958e7e2abd5e6d14b12ed.js",
+    "service-worker.js": "/light_chaser/service-worker.js",
+    "static/css/2.2f67b891.chunk.css.map": "/light_chaser/static/css/2.2f67b891.chunk.css.map",
+    "static/css/main.622061d4.chunk.css.map": "/light_chaser/static/css/main.622061d4.chunk.css.map",
+    "static/media/USC-Games_CardOnWhite_Horiz.png": "/light_chaser/static/media/USC-Games_CardOnWhite_Horiz.a1daf3ac.png",
+    "static/media/index.css": "/light_chaser/static/media/element-icons.d2f69a92.woff",
+    "static/media/App.css": "/light_chaser/static/media/teamer_bg.94a54aef.jpg",
+    "static/media/slick-theme.css": "/light_chaser/static/media/slick.f97e3bbf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5c0582b.js",
+    "static/css/2.2f67b891.chunk.css",
+    "static/js/2.88c8e90f.chunk.js",
+    "static/css/main.622061d4.chunk.css",
+    "static/js/main.043e4b1d.chunk.js"
+  ]
+}
