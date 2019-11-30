@@ -14,20 +14,21 @@ function App() {
   return (
     <Router className="App">
         <Switch>
-            <Route basename="/light_chaser"/>
-            <Route exact path="/">
-                <div className="App-bg"></div>
-                <header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" />
-                    <h1>Light Chaser</h1>
-                    <Link to='/main'><Button type='primary'>Click to Start</Button></Link>
-                </header>
-                <div>
-                    <div className="cube Cube-left"></div>
-                </div>
-            </Route>
-            <Route path="/main" component={Main}>
-            </Route>
+            <Router basename={window.location.pathname || ''}>
+                <Route exact path="/">
+                    <div className="App-bg"></div>
+                    <header className="App-header">
+                        <img src={logo} className="App-logo" alt="logo" />
+                        <h1>Light Chaser</h1>
+                        <Link to='/main'><Button type='primary'>Click to Start</Button></Link>
+                    </header>
+                    <div>
+                        <div className="cube Cube-left"></div>
+                    </div>
+                </Route>
+                <Route path="/main" component={Main}>
+                </Route>
+            </Router>
         </Switch>
     </Router>
   );
