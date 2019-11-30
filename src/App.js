@@ -11,6 +11,7 @@ import 'element-theme-default';
 import Main from './pages/Main';
 
 function App() {
+    console.log(window.location.pathname);
   return (
     <Router className="App">
         <Switch>
