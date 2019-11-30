@@ -14,6 +14,7 @@ function App() {
   return (
     <Router className="App">
         <Switch>
+            <Route basename="/light_chaser"/>
             <Route exact path="/">
                 <div className="App-bg"></div>
                 <header className="App-header">
