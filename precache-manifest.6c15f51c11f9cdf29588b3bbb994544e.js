@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "620d3bfdf02ea25724e7e84c168266d4",
+    "revision": "9fe5e43fa14f422d0a5216a3f924169b",
     "url": "/light_chaser/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/light_chaser/static/css/2.2f67b891.chunk.css"
   },
   {
-    "revision": "751b9a5e564355967680",
+    "revision": "db078285fdd5675e8132",
     "url": "/light_chaser/static/css/main.622061d4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/light_chaser/static/js/2.6b4da4b5.chunk.js"
   },
   {
-    "revision": "751b9a5e564355967680",
-    "url": "/light_chaser/static/js/main.7ef4e71b.chunk.js"
+    "revision": "db078285fdd5675e8132",
+    "url": "/light_chaser/static/js/main.68ba628e.chunk.js"
   },
   {
     "revision": "5a806a5dc0e5443a5c2b",
