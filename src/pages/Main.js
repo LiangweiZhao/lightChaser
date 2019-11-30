@@ -14,7 +14,7 @@ class TeamMember extends Component {
         return (
             <div {...props}>
                 <div className="cardFront">
-                    <img src={`../../public/${photo}`}/>
+                    <img src={`../${photo}`}/>
                 </div>
                 <div className="cardBack">
                     <h1>{name}</h1>
