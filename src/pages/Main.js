@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
 import { Radio } from 'antd';
-import Team from './Team';
-import Home from './Home';
 
 import { Menu, Icon } from 'antd';
-
-const { SubMenu } = Menu;
 
 class TeamMember extends Component {
     render() {
@@ -54,7 +50,7 @@ class Main extends React.Component{
             responsive: [
                 {
                     breakpoint: 1024,
-                    settings_scene: {
+                    settings: {
                         slidesToShow: 3,
                         slidesToScroll: 3,
                         infinite: true,
@@ -63,7 +59,7 @@ class Main extends React.Component{
                 },
                 {
                     breakpoint: 600,
-                    settings_scene: {
+                    settings: {
                         slidesToShow: 2,
                         slidesToScroll: 2,
                         initialSlide: 2
@@ -71,7 +67,7 @@ class Main extends React.Component{
                 },
                 {
                     breakpoint: 480,
-                    settings_scene: {
+                    settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1
                     }
@@ -96,15 +92,7 @@ class Main extends React.Component{
                     }
                 },
                 {
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        initialSlide: 1
-                    }
-                },
-                {
-                    breakpoint: 480,
+                    breakpoint: 550,
                     settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1
