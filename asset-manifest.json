@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/light_chaser/static/css/main.a2d9a91e.chunk.css",
-    "main.js": "/light_chaser/static/js/main.e2f5273d.chunk.js",
-    "main.js.map": "/light_chaser/static/js/main.e2f5273d.chunk.js.map",
+    "main.js": "/light_chaser/static/js/main.35819989.chunk.js",
+    "main.js.map": "/light_chaser/static/js/main.35819989.chunk.js.map",
     "runtime-main.js": "/light_chaser/static/js/runtime-main.e5c0582b.js",
     "runtime-main.js.map": "/light_chaser/static/js/runtime-main.e5c0582b.js.map",
     "static/css/2.2f67b891.chunk.css": "/light_chaser/static/css/2.2f67b891.chunk.css",
     "static/js/2.6b4da4b5.chunk.js": "/light_chaser/static/js/2.6b4da4b5.chunk.js",
     "static/js/2.6b4da4b5.chunk.js.map": "/light_chaser/static/js/2.6b4da4b5.chunk.js.map",
     "index.html": "/light_chaser/index.html",
-    "precache-manifest.2b45332ce85b0ccdcbf0d183e91be574.js": "/light_chaser/precache-manifest.2b45332ce85b0ccdcbf0d183e91be574.js",
+    "precache-manifest.dfa2be959f4155bbc317f4f6347af47b.js": "/light_chaser/precache-manifest.dfa2be959f4155bbc317f4f6347af47b.js",
     "service-worker.js": "/light_chaser/service-worker.js",
     "static/css/2.2f67b891.chunk.css.map": "/light_chaser/static/css/2.2f67b891.chunk.css.map",
     "static/css/main.a2d9a91e.chunk.css.map": "/light_chaser/static/css/main.a2d9a91e.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.2f67b891.chunk.css",
     "static/js/2.6b4da4b5.chunk.js",
     "static/css/main.a2d9a91e.chunk.css",
-    "static/js/main.e2f5273d.chunk.js"
+    "static/js/main.35819989.chunk.js"
   ]
 }
