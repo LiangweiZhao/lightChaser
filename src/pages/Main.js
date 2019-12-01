@@ -90,7 +90,7 @@ class Main extends React.Component{
             <div>
                 <Menu mode="horizontal" className="Main-header">
                     <Menu.Item>
-                        <a className="logo" href="/">
+                        <a className="logo" href={`${window.location.pathname.split('/')[1]}/`}>
                             <img src="/USC-Games_CardOnWhite_Horiz.png"/>
                         </a>
                     </Menu.Item>
