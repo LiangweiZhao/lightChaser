@@ -50,7 +50,33 @@ class Main extends React.Component{
             speed: 500,
             autoplay: true,
             slidesToShow: 3,
-            slidesToScroll: 3
+            slidesToScroll: 3,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings_scene: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings_scene: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        initialSlide: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings_scene: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
         };
         const settings_team = {
             className: "center",
@@ -58,7 +84,33 @@ class Main extends React.Component{
             infinite: true,
             centerPadding: "0",
             slidesToShow: 3,
-            speed: 500
+            speed: 500,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        initialSlide: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
         };
 
         const info_team_1 = {
@@ -81,9 +133,17 @@ class Main extends React.Component{
             className: "team_item",
             name: "BOYU ZHANG",
             email: "boyuz@usc.edu",
-            task: "background music analysis",
+            task: "Background Music Analysis",
             photo: "photo_boyu.jpeg",
             index: 3
+        };
+        const info_team_4 = {
+            className: "team_item",
+            name: "ZHUNYUE  CHEN",
+            email: "zhunyuec@usc.edu",
+            task: "Music Analyst, UI designer",
+            photo: "photo_yue.jpeg",
+            index: 4
         };
 
         console.log(window.location.pathname.split('/'));
@@ -196,7 +256,7 @@ class Main extends React.Component{
                             <TeamMember {...info_team_1}/>
                             <TeamMember {...info_team_2}/>
                             <TeamMember {...info_team_3}/>
-                            <TeamMember index={4} className="team_item"/>
+                            <TeamMember {...info_team_4}/>
                             <TeamMember index={5} className="team_item"/>
                             <TeamMember index={6} className="team_item"/>
                             <TeamMember index={7} className="team_item"/>
