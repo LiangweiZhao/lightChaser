@@ -86,11 +86,12 @@ class Main extends React.Component{
             index: 3
         };
 
+        console.log(window.location.pathname.split('/'));
         return (
             <div>
                 <Menu mode="horizontal" className="Main-header">
                     <Menu.Item>
-                        <a className="logo" href={`${window.location.pathname.split('/')[1]}/`}>
+                        <a className="logo" href={`/${window.location.pathname.split('/')[0]}/`}>
                             <img src="/USC-Games_CardOnWhite_Horiz.png"/>
                         </a>
                     </Menu.Item>
