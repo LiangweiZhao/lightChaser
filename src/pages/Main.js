@@ -58,11 +58,10 @@ class Main extends React.Component{
                     }
                 },
                 {
-                    breakpoint: 600,
+                    breakpoint: 700,
                     settings: {
                         slidesToShow: 2,
-                        slidesToScroll: 2,
-                        initialSlide: 2
+                        slidesToScroll: 2
                     }
                 },
                 {
@@ -113,7 +112,7 @@ class Main extends React.Component{
             className: "team_item",
             name: "MAI LI",
             email: "maili@usc.edu",
-            task: "Game Map designer，UI designer",
+            task: "Game Map designer，UI Designer",
             photo: "photo_mai.jpeg",
             index: 2
         };
@@ -121,7 +120,7 @@ class Main extends React.Component{
             className: "team_item",
             name: "BOYU ZHANG",
             email: "boyuz@usc.edu",
-            task: "Background Music Analysis",
+            task: "Music Analyst, UI Designer",
             photo: "photo_boyu.jpeg",
             index: 3
         };
@@ -129,9 +128,33 @@ class Main extends React.Component{
             className: "team_item",
             name: "ZHUNYUE  CHEN",
             email: "zhunyuec@usc.edu",
-            task: "Music Analyst, UI designer",
+            task: "Music Analyst, UI Designer",
             photo: "photo_yue.jpeg",
             index: 4
+        };
+        const info_team_5 = {
+            className: "team_item",
+            name: "CHENGMING WAN",
+            email: "wan879@usc.edu",
+            task: "Scene Designer",
+            photo: "photo_wan.jpeg",
+            index: 5
+        };
+        const info_team_6 = {
+            className: "team_item",
+            name: "DUNXUAN LI",
+            email: "dunxuanl@usc.edu",
+            task: "UI Designer, Level Path Designer",
+            photo: "photo_dun.jpeg",
+            index: 6
+        };
+        const info_team_7 = {
+            className: "team_item",
+            name: "XUAN SHAO",
+            email: "dunxuanl@usc.edu",
+            task: "UI Designer, Level Path Designer",
+            photo: "photo_shao.jpeg",
+            index: 6
         };
 
         console.log(window.location.pathname.split('/'));
@@ -185,19 +208,19 @@ class Main extends React.Component{
                             <img src={`instru_1.png`}/>
                         </div>
                         <div className="scene_item">
-                            <img src={`instru_1.png`}/>
-                        </div>
-                        <div className="scene_item">
-                            <img src={`instru_1.png`}/>
-                        </div>
-                        <div className="scene_item">
                             <img src={`instru_2.png`}/>
                         </div>
                         <div className="scene_item">
-                            <img src={`instru_2.png`}/>
+                            <img src={`instru_3.png`}/>
                         </div>
                         <div className="scene_item">
-                            <img src={`instru_2.png`}/>
+                            <img src={`instru_4.png`}/>
+                        </div>
+                        <div className="scene_item">
+                            <img src={`instru_5.png`}/>
+                        </div>
+                        <div className="scene_item">
+                            <img src={`instru_6.png`}/>
                         </div>
                     </Slider>
                 </div>
@@ -235,7 +258,7 @@ class Main extends React.Component{
                     <div className="background_info">
                         <h1>Team</h1>
                         <span>
-                            Let's introduce our team!
+                            Let's introduce our 7 members team!
                         </span>
                     </div>
                     <div className="team_bg"></div>
@@ -245,9 +268,9 @@ class Main extends React.Component{
                             <TeamMember {...info_team_2}/>
                             <TeamMember {...info_team_3}/>
                             <TeamMember {...info_team_4}/>
-                            <TeamMember index={5} className="team_item"/>
-                            <TeamMember index={6} className="team_item"/>
-                            <TeamMember index={7} className="team_item"/>
+                            <TeamMember {...info_team_5}/>
+                            <TeamMember {...info_team_6}/>
+                            <TeamMember {...info_team_7}/>
                         </Slider>
                     </div>
                 </div>
