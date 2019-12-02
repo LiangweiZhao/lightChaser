@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/light_chaser/static/css/main.f958b378.chunk.css",
-    "main.js": "/light_chaser/static/js/main.1c15a988.chunk.js",
-    "main.js.map": "/light_chaser/static/js/main.1c15a988.chunk.js.map",
+    "main.css": "/light_chaser/static/css/main.373080c3.chunk.css",
+    "main.js": "/light_chaser/static/js/main.dca68e9a.chunk.js",
+    "main.js.map": "/light_chaser/static/js/main.dca68e9a.chunk.js.map",
     "runtime-main.js": "/light_chaser/static/js/runtime-main.e5c0582b.js",
     "runtime-main.js.map": "/light_chaser/static/js/runtime-main.e5c0582b.js.map",
-    "static/css/2.1efcc497.chunk.css": "/light_chaser/static/css/2.1efcc497.chunk.css",
-    "static/js/2.44d2bb26.chunk.js": "/light_chaser/static/js/2.44d2bb26.chunk.js",
-    "static/js/2.44d2bb26.chunk.js.map": "/light_chaser/static/js/2.44d2bb26.chunk.js.map",
+    "static/css/2.df054dc0.chunk.css": "/light_chaser/static/css/2.df054dc0.chunk.css",
+    "static/js/2.cea0b7a5.chunk.js": "/light_chaser/static/js/2.cea0b7a5.chunk.js",
+    "static/js/2.cea0b7a5.chunk.js.map": "/light_chaser/static/js/2.cea0b7a5.chunk.js.map",
     "index.html": "/light_chaser/index.html",
-    "precache-manifest.5f61648f8d6b7ca9407eaa44242a0243.js": "/light_chaser/precache-manifest.5f61648f8d6b7ca9407eaa44242a0243.js",
+    "precache-manifest.0db55b08546d65d66ed5d7d88d25515a.js": "/light_chaser/precache-manifest.0db55b08546d65d66ed5d7d88d25515a.js",
     "service-worker.js": "/light_chaser/service-worker.js",
-    "static/css/2.1efcc497.chunk.css.map": "/light_chaser/static/css/2.1efcc497.chunk.css.map",
-    "static/css/main.f958b378.chunk.css.map": "/light_chaser/static/css/main.f958b378.chunk.css.map",
+    "static/css/2.df054dc0.chunk.css.map": "/light_chaser/static/css/2.df054dc0.chunk.css.map",
+    "static/css/main.373080c3.chunk.css.map": "/light_chaser/static/css/main.373080c3.chunk.css.map",
     "static/media/USC-Games_CardOnWhite_Horiz.png": "/light_chaser/static/media/USC-Games_CardOnWhite_Horiz.a1daf3ac.png",
     "static/media/index.css": "/light_chaser/static/media/element-icons.d2f69a92.woff",
     "static/media/App.css": "/light_chaser/static/media/teamer_bg.94a54aef.jpg",
@@ -20,9 +20,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e5c0582b.js",
-    "static/css/2.1efcc497.chunk.css",
-    "static/js/2.44d2bb26.chunk.js",
-    "static/css/main.f958b378.chunk.css",
-    "static/js/main.1c15a988.chunk.js"
+    "static/css/2.df054dc0.chunk.css",
+    "static/js/2.cea0b7a5.chunk.js",
+    "static/css/main.373080c3.chunk.css",
+    "static/js/main.dca68e9a.chunk.js"
   ]
 }
