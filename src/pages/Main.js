@@ -22,6 +22,38 @@ class TeamMember extends Component {
     }
 }
 
+class ScreenShot extends Component{
+    render() {
+        const { photo, ...props} = this.props;
+        return (
+            <div {...props}>
+                <img src={`${photo}`}/>
+            </div>
+        );
+    }
+}
+
+function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+        <div
+            className={className}
+            style={{ ...style, display: "block", background: "red" }}
+            onClick={onClick}
+        />
+    );
+}
+
+function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+        <div
+            className={className}
+            style={{ ...style, display: "block", background: "green" }}
+            onClick={onClick}
+        />
+    );
+}
 class Main extends React.Component{
     state = {
         vppVal: "video"
@@ -92,6 +124,40 @@ class Main extends React.Component{
                 },
                 {
                     breakpoint: 550,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        };
+
+        const settings_ss = {
+            infinite: true,
+            speed: 500,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            nextArrow: <SampleNextArrow />,
+            prevArrow: <SamplePrevArrow />,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 700,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
                     settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1
@@ -205,15 +271,6 @@ class Main extends React.Component{
                     <div className="scene_bg"></div>
                     <Slider {...settings_scene} className="scene_items">
                         <div className="scene_item">
-                            <img src={`instru_1.png`}/>
-                        </div>
-                        <div className="scene_item">
-                            <img src={`instru_2.png`}/>
-                        </div>
-                        <div className="scene_item">
-                            <img src={`instru_3.png`}/>
-                        </div>
-                        <div className="scene_item">
                             <img src={`instru_4.png`}/>
                         </div>
                         <div className="scene_item">
@@ -221,6 +278,15 @@ class Main extends React.Component{
                         </div>
                         <div className="scene_item">
                             <img src={`instru_6.png`}/>
+                        </div>
+                        <div className="scene_item">
+                            <img src={`instru_1.png`}/>
+                        </div>
+                        <div className="scene_item">
+                            <img src={`instru_2.png`}/>
+                        </div>
+                        <div className="scene_item">
+                            <img src={`instru_3.png`}/>
                         </div>
                     </Slider>
                 </div>
@@ -240,17 +306,30 @@ class Main extends React.Component{
                     <br/>
                     {this.state.vppVal === "video" ?
                         (<div className="player">
-                            <video width="1000" height="400" controls>
-                                <source src="http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4" />
-                            </video>
+                            <iframe width="700" height="500" src="https://www.youtube.com/embed/fv7rl-zMsPU"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen>
+                            </iframe>
                         </div>):
                         this.state.vppVal === "poster" ?
                             (<img id="poster" src="poster.jpeg"/>):
-                            (<div className= "screenshot"><Slider {...settings_team}>
-                                <h1>1</h1>
-                                <h1>2</h1>
-                                <h1>3</h1>
-                                <h1>4</h1>
+                            (<div className= "screenshot"><Slider {...settings_ss}>
+                                <ScreenShot className="ss" photo="ss1.png"/>
+                                <ScreenShot className="ss" photo="ss2.png"/>
+                                <ScreenShot className="ss" photo="ss3.png"/>
+                                <ScreenShot className="ss" photo="ss_gameover.png"/>
+                                <ScreenShot className="ss" photo="ss_reborn.png"/>
+                                <ScreenShot className="ss" photo="ss_win.png"/>
+                                <ScreenShot className="ss" photo="ss1_1.png"/>
+                                <ScreenShot className="ss" photo="ss1_2.png"/>
+                                <ScreenShot className="ss" photo="ss1_3.png"/>
+                                <ScreenShot className="ss" photo="ss2_1.png"/>
+                                <ScreenShot className="ss" photo="ss2_2.png"/>
+                                <ScreenShot className="ss" photo="ss2_3.png"/>
+                                <ScreenShot className="ss" photo="ss3_1.png"/>
+                                <ScreenShot className="ss" photo="ss3_2.png"/>
+                                <ScreenShot className="ss" photo="ss3_3.png"/>
                             </Slider></div>)
                     }
                 </div>

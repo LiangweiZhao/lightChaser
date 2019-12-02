@@ -152,8 +152,24 @@
   transition: ease-in-out 0.5s;
 }
 .screenshot{
-  margin: 10px 0;
-  padding: 0 30px;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+.screenshot .slick-next{
+  top:105% !important;
+  right: 45% !important;
+  z-index: 2;
+}
+.screenshot .slick-prev{
+  top:105% !important;
+  left: 45% !important;
+  z-index: 2;
+}
+.ss img{
+    width: 80%;
+    height: 500px;
+    border-radius: 5px;
+    margin: 0 auto;
 }
 .player{
   margin: 10px 0;
