@@ -217,8 +217,8 @@ class Main extends React.Component{
         const info_team_7 = {
             className: "team_item",
             name: "XUAN SHAO",
-            email: "dunxuanl@usc.edu",
-            task: "UI Designer, Level Path Designer",
+            email: "xuanshao@usc.edu",
+            task: "Leader, Scene Designer",
             photo: "photo_shao.jpeg",
             index: 6
         };
@@ -343,13 +343,13 @@ class Main extends React.Component{
                     <div className="team_bg"></div>
                     <div className="team_container">
                         <Slider {...settings_team}>
-                            <TeamMember {...info_team_1}/>
+                            <TeamMember {...info_team_7}/>
                             <TeamMember {...info_team_2}/>
                             <TeamMember {...info_team_3}/>
                             <TeamMember {...info_team_4}/>
                             <TeamMember {...info_team_5}/>
                             <TeamMember {...info_team_6}/>
-                            <TeamMember {...info_team_7}/>
+                            <TeamMember {...info_team_1}/>
                         </Slider>
                     </div>
                 </div>
