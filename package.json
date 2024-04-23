@@ -35,7 +35,7 @@
     "antd": "^3.25.0",
     "element-react": "^1.4.34",
     "element-theme-default": "^1.4.13",
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^5.0.0",
     "jquery": "^3.4.1",
     "react-hot-loader": "^4.5.3",
     "react-router-dom": "^5.1.2",
